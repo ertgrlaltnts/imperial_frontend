@@ -41,6 +41,7 @@ const menu_data = [
     sub_menus: [
       { link: "/en/tibbi-birimlerimiz", title: "Our Medical Units" },
       { link: "/en/hekimlerimiz", title: "Our Doctors" },
+      { link: "/en/idari-birimlerimiz", title: "Our Administrative Units" },
     ],
   },
 

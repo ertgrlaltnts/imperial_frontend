@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://imperialhastanesi.com
+
+# Sitemaps
+Sitemap: https://imperialhastanesi.com/sitemap.xml

@@ -45,7 +45,7 @@ export default function Contact({ data, general }) {
                             <span>
                               <i
                                 style={{ fontSize: 25 }}
-                                className="fa-regular fa-envelope"
+                                className="fa-light fa-envelope"
                               ></i>
                             </span>
                           </div>
@@ -67,7 +67,7 @@ export default function Contact({ data, general }) {
                             <span>
                               <i
                                 style={{ fontSize: 25 }}
-                                className="fa-regular fa-phone"
+                                className="fa-light fa-phone"
                               ></i>
                             </span>
                           </div>
@@ -135,7 +135,10 @@ export default function Contact({ data, general }) {
                           </h3>
                         </div>
 
-                        <div className="tp-contact-content-phone d-flex align-items-center">
+                        <div
+                          style={{ marginBottom: 10 }}
+                          className=" d-flex align-items-center"
+                        >
                           <div
                             style={{ marginRight: 20 }}
                             className="tp-contact-content-phone-icon"
@@ -143,10 +146,18 @@ export default function Contact({ data, general }) {
                             <span>
                               <i
                                 style={{ fontSize: 25 }}
-                                className="fa-regular fa-pen-to-square"
+                                className="fa-light fa-pen-to-square"
                               ></i>
                             </span>
                           </div>
+
+                          <h3
+                            style={{ fontSize: 18, marginRight: 10 }}
+                            className="tp-contact-item-title"
+                          >
+                            რედაქტორის ტელეფონი:
+                          </h3>
+
                           <h3
                             style={{ fontSize: 18 }}
                             className="tp-contact-item-title"

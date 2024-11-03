@@ -5,9 +5,10 @@ const SEO = ({ pageTitle, description }) => (
     <Head>
       <title> {pageTitle}</title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+      <meta charset="UTF-8" />
+      <meta name="author" content="Wesoco Teknoloji & Danışmanlık" />
       <meta name="description" content={description} />
-      <meta name="robots" content="noindex, follow" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.png" />
     </Head>
   </>

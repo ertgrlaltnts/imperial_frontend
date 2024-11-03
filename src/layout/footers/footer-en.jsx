@@ -80,12 +80,6 @@ const Footer = ({ data }) => {
                         </a>
                       </div>
 
-                      <div className="tp-footer-main-mail">
-                        <a href={`tel:${data.phone_3_call}`}>
-                          <i className="fa-light fa-phone"></i>
-                          {data.phone_3}
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -108,9 +102,14 @@ const Footer = ({ data }) => {
                           Our Medical Units
                         </Link>
                       </li>
+                      
 
                       <li>
                         <Link href="/en/hekimlerimiz">Our Doctors</Link>
+                      </li>
+
+                      <li>
+                        <Link href="/en/idari-birimlerimiz">Our Administrative Units</Link>
                       </li>
 
                       <li>
@@ -137,11 +136,6 @@ const Footer = ({ data }) => {
                         </Link>
                       </li>
 
-                      <li>
-                        <Link href="/en/bilgilendirme/genel-mudur">
-                          General Manager
-                        </Link>
-                      </li>
                       <li>
                         <Link href="/en/bilgilendirme/aydinlatma-metni">
                           Clarification Text

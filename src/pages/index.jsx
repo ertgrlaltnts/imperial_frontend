@@ -17,7 +17,7 @@ export default function Home({ data, doctors, birim, duyuru, yazi, general }) {
   return (
     <Wrapper>
       <SEO
-        pageTitle={"İmperial Hastanesi Trabzon | Sağlığınız İçin Doğru Adres"}
+        pageTitle={"İmperial Hastanesi Trabzon | Hastalıkta ve Sağlıkta"}
         description={
           "Trabzon'da kaliteli sağlık hizmetleri sunan İmperial Hastanesi, uzman doktor kadrosu ve modern teknolojisiyle sağlıkta güvenin adresi. Her branşta profesyonel tanı ve tedavi imkanıyla sağlığınızı güvenle bize emanet edin."
         }
@@ -26,12 +26,19 @@ export default function Home({ data, doctors, birim, duyuru, yazi, general }) {
       <main>
         <HeroSlider data={data.tr.slider} images={data.slider_images.data} />
         <FeatureArea title={["İmperial", "Hastanesi"]} data={data.tr.teams} />
-        <ServiceArea title={["İmperial", "Hastanesi"]} more={"Devamını Oku"} data={data.tr.about} />
+        <ServiceArea
+          title={["İmperial", "Hastanesi"]}
+          more={"Devamını Oku"}
+          data={data.tr.about}
+        />
         <TeamArea data={doctors} />
         <Paket data={yazi} />
         <FaqArea title={["Sıkça Sorulan", "Sorular ?"]} data={data.tr.faq} />
         <DepartmentArea data={birim} />
-        <BlogArea title={["Duyurular", "Blog", "Duyuru", "Duyuruyu Oku"]} data={duyuru} />
+        <BlogArea
+          title={["Duyurular", "Blog", "Duyuru", "Duyuruyu Oku"]}
+          data={duyuru}
+        />
         <Update data={data.update} />
         <Footer data={general} />
       </main>

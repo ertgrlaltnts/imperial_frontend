@@ -41,6 +41,7 @@ const menu_data = [
     sub_menus: [
       { link: "/tibbi-birimlerimiz", title: "Tıbbi Birimlerimiz" },
       { link: "/hekimlerimiz", title: "Hekimlerimiz" },
+      { link: "/idari-birimlerimiz", title: "İdari Birimlerimiz" },
     ],
   },
 

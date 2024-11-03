@@ -41,6 +41,7 @@ const menu_data = [
     sub_menus: [
       { link: "/geo/tibbi-birimlerimiz", title: "ჩვენი სამედიცინო განყოფილებები" },
       { link: "/geo/hekimlerimiz", title: "ჩვენი ექიმები" },
+      { link: "/geo/idari-birimlerimiz", title: "ჩვენი ადმინისტრაციული ერთეულები" },
     ],
   },
 

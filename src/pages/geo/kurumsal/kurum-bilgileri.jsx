@@ -108,13 +108,13 @@ export default function Kurum({general}) {
                       <td class="tg-mh5v">
                         <span>Telefon</span>
                       </td>
-                      <td class="tg-jn0s">: +90 462 444 44 61</td>
+                      <td class="tg-jn0s">: 0462 444 44 61</td>
                     </tr>
                     <tr>
                       <td class="tg-w1dh">
                         <span>Faks</span>
                       </td>
-                      <td class="tg-av16">: +90 462 321 36 30</td>
+                      <td class="tg-av16">: 0462 321 36 30</td>
                     </tr>
                     <tr>
                       <td class="tg-mh5v">

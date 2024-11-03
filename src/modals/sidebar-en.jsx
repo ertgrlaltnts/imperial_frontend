@@ -141,14 +141,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen, home_three, data }) => {
                 </div>
               </div>
 
-              <div className="offcanvas__contact-content d-flex">
-                <div className="offcanvas__contact-content-icon">
-                  <i className="fa-solid fa-phone"></i>
-                </div>
-                <div className="offcanvas__contact-content-content">
-                  <a href={`tel:${data.phone_3_call}`}>{data.phone_3}</a>
-                </div>
-              </div>
+
             </div>
             <div className="offcanvas__social">
               <a className="icon facebook" href={data.facebook}>

@@ -102,7 +102,7 @@ const HeroSlider = ({ data, images }) => {
                                   <img src={"/assets/img/logo/logo.png"} />
                                 </span>
                                 <h3 className="tp-hero-title">
-                                  {data[i].title_1} <LineArrow />
+                                  {data[i].title_1}
                                   <br />{" "}
                                   <span className="title-color">
                                     {data[i].title_2}
@@ -114,24 +114,25 @@ const HeroSlider = ({ data, images }) => {
                                     href={data[i].button_1_link}
                                   >
                                     {data[i].button_1}{" "}
-                                    <img src={`${process.env.NEXT_PUBLIC_IP}${data[i].button_1_icon.data.attributes.url}`} style={{width:25, height:25}} />
+                                    <img
+                                      src={`${process.env.NEXT_PUBLIC_IP}${data[i].button_1_icon.data.attributes.url}`}
+                                      style={{ width: 25, height: 25 }}
+                                    />
                                   </Link>
                                 </div>
 
-                              
-                                  <div
-                               
-                                    className="tp-hero-btn"
+                                <div className="tp-hero-btn">
+                                  <Link
+                                    className="tp-btn"
+                                    href={data[i].button_2_link}
                                   >
-                                    <Link
-                                      className="tp-btn"
-                                      href={data[i].button_2_link}
-                                    >
-                                      {data[i].button_2}{" "}
-                                      <img src={`${process.env.NEXT_PUBLIC_IP}${data[i].button_2_icon.data.attributes.url}`} style={{width:25, height:25}} />
-                                    </Link>
-                                  </div>
-                               
+                                    {data[i].button_2}{" "}
+                                    <img
+                                      src={`${process.env.NEXT_PUBLIC_IP}${data[i].button_2_icon.data.attributes.url}`}
+                                      style={{ width: 25, height: 25 }}
+                                    />
+                                  </Link>
+                                </div>
                               </div>
                               {/* <div className="tp-hero-shape-animation">
                                 <span></span>

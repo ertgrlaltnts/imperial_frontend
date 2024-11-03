@@ -78,13 +78,6 @@ const Footer = ({ data }) => {
                           {data.phone_2}
                         </a>
                       </div>
-
-                      <div className="tp-footer-main-mail">
-                        <a href={`tel:${data.phone_3_call}`}>
-                          <i className="fa-light fa-phone"></i>
-                          {data.phone_3}
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -113,6 +106,10 @@ const Footer = ({ data }) => {
                       </li>
 
                       <li>
+                        <Link href="/geo/idari-birimlerimiz">ჩვენი ადმინისტრაციული ერთეულები</Link>
+                      </li>
+
+                      <li>
                         <Link href="/geo/saglik-rehberi">ჯანმრთელობის გზამკვლევი</Link>
                       </li>
 
@@ -135,12 +132,6 @@ const Footer = ({ data }) => {
                       <li>
                         <Link href="/geo/bilgilendirme/bashekimin-mesaji">
                         მესიჯი მთავარი ექიმისგან
-                        </Link>
-                      </li>
-
-                      <li>
-                        <Link href="/geo/bilgilendirme/genel-mudur">
-                        გენერალური მენეჯერი
                         </Link>
                       </li>
                       <li>
