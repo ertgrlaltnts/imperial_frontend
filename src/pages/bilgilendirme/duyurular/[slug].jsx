@@ -10,10 +10,12 @@ import UserProfile from "../../../components/blog/user-profile";
 import axios from "axios";
 import Update from "@/src/components/update";
 
-export default function Duyuru({data, general}) {
+export default function Duyuru({ data, general }) {
   return (
     <Wrapper>
-      <SEO pageTitle={`${data.tr.title} | Duyurular | İmperial Hastanesi Trabzon`} />
+      <SEO
+        pageTitle={`${data.tr.title} | Duyurular | İmperial Hastanesi Trabzon`}
+      />
       <HeaderOne data={general} />
       <main>
         <Breadcrumb top_title={data.tr.title} page_title={data.tr.title} />
@@ -43,7 +45,6 @@ export default function Duyuru({data, general}) {
                       fontWeight: 400,
                       fontSize: 16,
                       color: "#535353",
-                      marginLeft: 13,
                     }}
                   >
                     {data.tr.text}
@@ -66,15 +67,13 @@ export default function Duyuru({data, general}) {
   );
 }
 
-
 const fetchAllSlugs = async () => {
   const slugs = await axios.get(
     `${process.env.NEXT_PUBLIC_IP}/api/duyurus?populate=deep`
   );
-  
-  return slugs.data.data.map(item => item.attributes.slug);
-}
 
+  return slugs.data.data.map((item) => item.attributes.slug);
+};
 
 export async function getStaticPaths() {
   const slugs = await fetchAllSlugs();
@@ -89,8 +88,7 @@ export async function getStaticPaths() {
   };
 }
 
-
-export async function getStaticProps({params}) {
+export async function getStaticProps({ params }) {
   const response = await axios.get(
     `${process.env.NEXT_PUBLIC_IP}/api/duyurus?filters[slug][$eq]=${params.slug}&populate=deep`
   );
@@ -102,7 +100,7 @@ export async function getStaticProps({params}) {
   return {
     props: {
       data: response.data.data[0].attributes,
-      general: general.data.data.attributes
+      general: general.data.data.attributes,
     },
     revalidate: 10,
   };

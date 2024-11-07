@@ -22,6 +22,7 @@ const menu_data = [
       { link: "/kurumsal/kalite-politikamiz", title: "Kalite Politikamız" },
       { link: "/kurumsal/isg-politikamiz", title: "İSG Politikamız" },
       { link: "/kurumsal/bebek-dostu-hastane", title: "Bebek Dostu Hastane" },
+      { link: "/kurumsal/normal-dogum", title: "Normal Doğum" },
       { link: "/kurumsal/hasta-haklari", title: "Hasta Hakları" },
       { link: "/kurumsal/degerlerimiz", title: "Değerlerimiz" },
       { link: "/kurumsal/guvenlik-kulturu", title: "Güvenlik Kültürü" },
@@ -42,6 +43,7 @@ const menu_data = [
       { link: "/tibbi-birimlerimiz", title: "Tıbbi Birimlerimiz" },
       { link: "/hekimlerimiz", title: "Hekimlerimiz" },
       { link: "/idari-birimlerimiz", title: "İdari Birimlerimiz" },
+      { link: "/kalite-yonetim-birimimiz", title: "Kalite Yönetim Birimimiz" },
     ],
   },
 

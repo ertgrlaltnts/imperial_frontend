@@ -168,26 +168,13 @@
                         -ms-transition: all 500ms ease;
                         -o-transition: all 500ms ease;
                         & span{
-                            transition: all .3s ease-in-out;
+                            
                             &::after{
                                 display: none;
                             }
                         }
 
-                        &::before{
-                            position: absolute;
-                            content: "";
-                            top: 50%;
-                            -webkit-transform: translateY(-50%);
-                            -moz-transform: translateY(-50%);
-                            -ms-transform: translateY(-50%);
-                            transform: translateY(-50%);
-                            left: 0px;
-                            height: 2px;
-                            width: 0;
-                            background: var(--tp-theme-secondary);
-                            transition: all .3s ease-in-out;
-                        }
+        
                     }
                     & .submenu{
                         left: 120%;
@@ -206,9 +193,7 @@
                     &:hover{
                         & > a{
                             color: var(--tp-theme-secondary);
-                            & span{
-                            margin-left: 14px;
-                            }
+           
                            
                             &::after{
                                 color: var(--tp-common-white);
@@ -317,6 +302,38 @@
                     -ms-transition-delay: 630ms;
                     -o-transition-delay: 630ms;
                     transition-delay: 630ms;
+                }
+
+                & .submenu > li:nth-child(10){
+                    -webkit-transition-delay: 700ms;
+                    -moz-transition-delay: 700ms;
+                    -ms-transition-delay: 700ms;
+                    -o-transition-delay: 700ms;
+                    transition-delay: 700ms;
+                }
+
+                & .submenu > li:nth-child(11){
+                    -webkit-transition-delay: 770ms;
+                    -moz-transition-delay: 770ms;
+                    -ms-transition-delay: 770ms;
+                    -o-transition-delay: 770ms;
+                    transition-delay: 770ms;
+                }
+
+                & .submenu > li:nth-child(12){
+                    -webkit-transition-delay: 840ms;
+                    -moz-transition-delay: 840ms;
+                    -ms-transition-delay: 840ms;
+                    -o-transition-delay: 840ms;
+                    transition-delay: 840ms;
+                }
+
+                & .submenu > li:nth-child(13){
+                    -webkit-transition-delay: 910ms;
+                    -moz-transition-delay: 910ms;
+                    -ms-transition-delay: 910ms;
+                    -o-transition-delay: 910ms;
+                    transition-delay: 910ms;
                 }
                 
 			}

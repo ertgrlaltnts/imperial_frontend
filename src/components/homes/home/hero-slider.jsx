@@ -21,34 +21,7 @@ const setting = {
     prevEl: ".hero-button-prev-1",
   },
 };
-// slider data
-const slider_data = [
-  {
-    id: 1,
-    bg_img: "/assets/img/hero/3.png",
-    hero_title_1: "Hastalıkta ve",
-    hero_support: "Sağlıkta",
-    button_1: "Online Sonuç",
-    button_1_icon: "hospital-user",
-    button_1_link:
-      "https://randevu.meddata.com.tr/imperialhastanesi/e-sonuc.php",
-    button_2: "Online Randevu",
-    button_2_icon: "calendar-lines-pen",
-    button_2_link: "https://randevu.meddata.com.tr/imperialhastanesi/",
-  },
-  {
-    id: 2,
-    bg_img: "/assets/img/hero/4.png",
-    hero_title_1: "Minik Kalplere",
-    hero_support: "İmperial Şefkati",
-    button_1: "Bebek Dostu Hastane",
-    button_1_icon: "baby",
-    button_1_link: "/kurumsal/bebek-dostu-hastane",
-    button_2: "",
-    button_2_icon: "",
-    button_2_link: "",
-  },
-];
+
 // shapes
 const shapes = [{ id_cls: 4, img: shape_4 }];
 
@@ -77,16 +50,7 @@ const HeroSlider = ({ data, images }) => {
                 <SwiperSlide key={i}>
                   <div className="tp-hero-inner-1">
                     <div className="container">
-                      <div className="tp-hero-shape">
-                        {shapes.map((shape, index) => (
-                          <Image
-                            key={index}
-                            className={`shape-${shape.id_cls}`}
-                            src={shape.img}
-                            alt="theme-pure"
-                          />
-                        ))}
-                      </div>
+     
                       <div className="tp-hero-1">
                         <div
                           className="tp-hero-bg tp-hero-overlay p-relative"

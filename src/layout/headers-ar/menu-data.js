@@ -22,6 +22,7 @@ const menu_data = [
       { link: "/ar/kurumsal/kalite-politikamiz", title: "سياسة الجودة لدينا" },
       { link: "/ar/kurumsal/isg-politikamiz", title: "سياسة الصحة والسلامة المهنية لدينا" },
       { link: "/ar/kurumsal/bebek-dostu-hastane", title: "مستشفى صديق للطفل" },
+      { link: "/ar/kurumsal/normal-dogum", title: "ولادة طبيعية" },
       { link: "/ar/kurumsal/hasta-haklari", title: "حقوق المريض" },
       { link: "/ar/kurumsal/degerlerimiz", title: "قيمنا" },
       { link: "/ar/kurumsal/guvenlik-kulturu", title: "الثقافة الأمنية" },
@@ -42,6 +43,7 @@ const menu_data = [
       { link: "/ar/tibbi-birimlerimiz", title: "وحداتنا الطبية" },
       { link: "/ar/hekimlerimiz", title: "أطباؤنا" },
       { link: "/ar/idari-birimlerimiz", title: "وحداتنا الإدارية" },
+      { link: "/ar/kalite-yonetim-birimimiz", title:"وحدة إدارة الجودة لدينا" },
     ],
   },
 

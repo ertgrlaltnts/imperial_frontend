@@ -5,7 +5,7 @@ const menu_data = [
     id: 1,
     mega_menu: false,
     home_icon: <HomeIcon />,
-    title: "საწყისი გვერდი",
+    title: "მთავარი",
     link: "/geo",
     active: "",
   },
@@ -13,20 +13,33 @@ const menu_data = [
     id: 2,
     mega_menu: false,
     has_dropdown: true,
-    title: "ინსტიტუციონალური",
+    title: "ორგანიზაცია",
     link: "",
     active: "",
     sub_menus: [
       { link: "/geo/kurumsal/hakkimizda", title: "ჩვენს შესახებ" },
-      { link: "/geo/kurumsal/anlasmali-kurumlar", title: "კონტრაქტი დაწესებულებები" },
-      { link: "/geo/kurumsal/kalite-politikamiz", title: "ჩვენი ხარისხის პოლიტიკა" },
+      {
+        link: "/geo/kurumsal/anlasmali-kurumlar",
+        title: "კონტრაქტი დაწესებულებები",
+      },
+      {
+        link: "/geo/kurumsal/kalite-politikamiz",
+        title: "ჩვენი ხარისხის პოლიტიკა",
+      },
       { link: "/geo/kurumsal/isg-politikamiz", title: "ISG ჩვენი პოლიტიკა" },
-      { link: "/geo/kurumsal/bebek-dostu-hastane", title: "ბავშვის მეგობრული საავადმყოფო" },
+      {
+        link: "/geo/kurumsal/bebek-dostu-hastane",
+        title: "ბავშვის მეგობრული საავადმყოფო",
+      },
+      { link: "/geo/kurumsal/normal-dogum", title: "ნორმალური დაბადება" },
       { link: "/geo/kurumsal/hasta-haklari", title: "პაციენტის უფლებები" },
       { link: "/geo/kurumsal/degerlerimiz", title: "ჩვენი ღირებულებები" },
       { link: "/geo/kurumsal/guvenlik-kulturu", title: "უსაფრთხოების კულტურა" },
       { link: "/geo/kurumsal/ziyaret-kurallari", title: "სტუმრობის წესები" },
-      { link: "/geo/kurumsal/kurum-bilgileri", title: "დაწესებულების ინფორმაცია" },
+      {
+        link: "/geo/kurumsal/kurum-bilgileri",
+        title: "დაწესებულების ინფორმაცია",
+      },
       { link: "/geo/kurumsal/sikayet-oneri", title: "საჩივარი და წინადადება" },
     ],
   },
@@ -35,13 +48,23 @@ const menu_data = [
     id: 3,
     mega_menu: false,
     has_dropdown: true,
-    title: "ჩვენი საავადმყოფო",
+    title: "საავადმყოფო",
     link: "",
     active: "",
     sub_menus: [
-      { link: "/geo/tibbi-birimlerimiz", title: "ჩვენი სამედიცინო განყოფილებები" },
+      {
+        link: "/geo/tibbi-birimlerimiz",
+        title: "ჩვენი სამედიცინო განყოფილებები",
+      },
       { link: "/geo/hekimlerimiz", title: "ჩვენი ექიმები" },
-      { link: "/geo/idari-birimlerimiz", title: "ჩვენი ადმინისტრაციული ერთეულები" },
+      {
+        link: "/geo/idari-birimlerimiz",
+        title: "ჩვენი ადმინისტრაციული ერთეულები",
+      },
+      {
+        link: "/geo/kalite-yonetim-birimimiz",
+        title: "ჩვენი ხარისხის მართვის განყოფილება",
+      },
     ],
   },
 
@@ -49,12 +72,18 @@ const menu_data = [
     id: 4,
     mega_menu: false,
     has_dropdown: true,
-    title: "ინფორმირება",
+    title: "ინფორმაცია",
     link: "",
     active: "",
     sub_menus: [
-      { link: "/geo/bilgilendirme/bashekimin-mesaji", title: "მესიჯი მთავარი ექიმისგან" },
-      { link: "/geo/bilgilendirme/aydinlatma-metni", title: "განმარტებითი ტექსტი" },
+      {
+        link: "/geo/bilgilendirme/bashekimin-mesaji",
+        title: "მესიჯი მთავარი ექიმისგან",
+      },
+      {
+        link: "/geo/bilgilendirme/aydinlatma-metni",
+        title: "განმარტებითი ტექსტი",
+      },
       {
         link: "/geo/bilgilendirme/calisan-adaylarina-aydinlatma-metni",
         title: "საინფორმაციო ტექსტი თანამშრომლობის კანდიდატებისთვის",
@@ -67,12 +96,11 @@ const menu_data = [
     ],
   },
 
-
   {
     id: 5,
     mega_menu: false,
     has_dropdown: false,
-    title: "განცხადებები",
+    title: "ანონსი",
     link: "/geo/bilgilendirme/duyurular",
     active: "",
   },
@@ -81,7 +109,7 @@ const menu_data = [
     id: 6,
     mega_menu: false,
     has_dropdown: true,
-    title: "ონლაინ სერვისები",
+    title: "ონლაინ",
     link: "",
     active: "",
     sub_menus: [
@@ -101,7 +129,7 @@ const menu_data = [
     id: 7,
     mega_menu: false,
     has_dropdown: false,
-    title: "კომუნიკაცია",
+    title: "კონტაქტი",
     link: "/geo/iletisim",
     active: "",
   },

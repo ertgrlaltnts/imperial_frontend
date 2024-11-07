@@ -22,6 +22,7 @@ const menu_data = [
       { link: "/en/kurumsal/kalite-politikamiz", title: "Our Quality Policy" },
       { link: "/en/kurumsal/isg-politikamiz", title: "ISG Policy" },
       { link: "/en/kurumsal/bebek-dostu-hastane", title: "Baby Friendly Hospital" },
+      { link: "/en/kurumsal/normal-dogum", title: "Normal Birth" },
       { link: "/en/kurumsal/hasta-haklari", title: "Patient Rights" },
       { link: "/en/kurumsal/degerlerimiz", title: "Our Values" },
       { link: "/en/kurumsal/guvenlik-kulturu", title: "Security Culture" },
@@ -42,6 +43,7 @@ const menu_data = [
       { link: "/en/tibbi-birimlerimiz", title: "Our Medical Units" },
       { link: "/en/hekimlerimiz", title: "Our Doctors" },
       { link: "/en/idari-birimlerimiz", title: "Our Administrative Units" },
+      { link: "/en/kalite-yonetim-birimimiz", title: "Our Quality Management Unit" },
     ],
   },
 
